@@ -1,0 +1,55 @@
+body {
+    background: #5c6ac4;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.logo-shopify {
+    filter: brightness(0) invert(1);
+    width: 10%;
+}
+
+.tittle {
+    color: white;
+    font-family: Helvetica;
+}
+
+h1 {
+    margin: auto;
+    margin-top: 20px;
+}
+
+.description {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    margin-top: auto;
+}
+
+.field {
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 20%;
+}
+
+.button-email {
+    padding: 10px;
+    border: 2px solid #212b35;
+    border-radius: 5px;
+    background-color: #212b35;
+    color: white;
+}
+
+.little-description {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: small;
+}
